@@ -1,0 +1,62 @@
+body {
+    background: #202020;
+    color: white;
+}
+
+#python1 {
+    padding-top: 25px;
+}
+
+#var {
+    color: white;
+}
+
+#operator {
+    color: rgb(110, 207, 206);
+}
+
+#boolean {
+    color: orange;
+}
+
+#string {
+    color: rgb(129 199 156);
+}
+
+#number {
+    color: orange;
+}
+
+#comment {
+    color: grey;
+}
+
+#list {
+    color: grey;
+}
+
+#tuple {
+    color: grey;
+}
+
+#dic {
+    color: grey;
+}
+
+#comma {
+    color: grey;
+}
+
+#titlePySec1 {
+    padding-top: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+#ln {
+    color: grey;
+}
+
+#descVarPy {
+    padding-top: 10px;
+}

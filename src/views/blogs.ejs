@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= title %></title>
+  <%- include('partials/head') %>
+</head>
+<body>
+  <%- include('partials/navigation') %>
+
+  <div class="container">
+    <h1 id="titlePySec1">Python</h1>
+    <br>
+    <h3 id="descVarPy">En este blog estaré enseñando lo más básico del lenguaje de programación Python.A continuación se mostrarán variables,y dirás, ¿qué es una variable? Pues mi querido amigo,es muy sencillo.Una variable no es más que un espacio en la memoria,y que una vez declarada podemos modificar su valor,EXCEPTO,en las tuplas,pero eso lo veremos más adelante....</h3>
+    <br>
+  </div>
+  <div class="container" id="python1">
+    <div class="card bg-dark textw-white text-left">
+      <div class="card-header">
+        <h4><span id="ln">1 &ensp;</span><span id="comment"># Esto es un comentario</span></h4>
+        <h4><span id="ln">2 &ensp;</span><span id="comment"># VARIABLES Y TIPOS</span></h4>
+        <h4 id="ln">3</h4>
+        <h4 id="ln">4 &ensp;<span id="var">String &ensp;</span><span id="operator">=&ensp;</span><span id="string"> 'string'</span><span id="comment">&ensp; # Esto es un string</span></h4> 
+        <h4 id="ln">5</h4>
+        <h4 id="ln">6 &ensp;<span id="var">Integer &ensp;</span><span id="operator">=&ensp;</span><span id="number"> 10 </span><span id="comment">&ensp; # Esto es un entero (número)</span></h4>
+        <h4 id="ln">7</h4>
+        <h4 id="ln">8 &ensp;<span id="var">Boolean &ensp;</span><span id="operator">=&ensp;</span><span id="boolean"> True </span><span id="comment">&ensp; # Esto es un booleano</span></h4>
+        <h4 id="ln">9</h4>
+        <h4 id="ln">10 &ensp;<span id="var">Array &ensp;</span><span id="operator">=&ensp;</span><span id="list"> [</span><span id="string">'string'</span>, <span id="number">20</span>, <span id="boolean">True</span><span id="list">] </span></span><span id="comment">&ensp; # Esto es una lista</span></h4>
+        <h4 id="ln">11</h4>
+        <h4 id="ln">12 &ensp;<span id="var">Tuple &ensp;</span><span id="operator">=&ensp;</span><span id="tuple"> (</span><span id="string">'string'</span>, <span id="number">20</span>, <span id="boolean">True</span><span id="tuple">) </span><span id="comment">&ensp; # Esto es una tupla</span></h4>
+        <h4 id="ln">13</h4>
+        <h4 id="ln">14 &ensp;<span id="var">Diccionary &ensp;</span><span id="operator">=&ensp;</span><span id="dic">{</span></h4>
+        <h4 id="ln">15<span id="string">&emsp; "name"<span id="operator">: </span><span id="string">"Ian"</span><span id="comma">,</span></h4>
+        <h4 id="ln">16 <span id="string">&emsp;"age"</span><span id="operator">: </span><span id="number">15</span></h4>
+        <h4 id="ln">17 &ensp;<span id="dic">}</span><span id="comment">&ensp; # Esto es un diccionario</span></h4>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <br>
+    <h3 id="descVarPy">Se podría decir que los números tienen "subtipos",y estos son:</h3>
+  </div>  
+  <div class="container" id="python1">
+    <div class="card bg-dark textw-white text-left">
+      <div class="card-header">
+        <h4 id="ln">1 &ensp;<span id="var">integer &ensp;</span><span id="operator">= &ensp;</span><span id="number">10 &ensp;</span><span id="comment"># Esto es un número entero</span></h4>
+        <h4 id="ln">2</h4>
+        <h4 id="ln">3 &ensp;<span id="var">long &ensp;</span><span id="operator">= &ensp;</span><span id="number">10L &ensp;</span><span id="comment"># Esto es un número largo,se le añade la "L" al final ya que el número llega a ser tan grande que el tipo "int" no lo soporta (Este no es el caso pero puede pasar)</span></h4>
+        <h4 id="ln">4</h4>
+        <h4 id="ln">5 &ensp;<span id="var">float &ensp;</span></span><span id="operator">= &ensp;</span><span id="number">10.5 &ensp;</span><span id="comment"># Esto es un número flotante,más conocido como "decimal"</span></h4>
+        <h4 id="ln">6</h4>
+        <h4 id="ln">7 &ensp;<span id="var">Imaginary &ensp;</span><span id="operator">= &ensp;</span><span id="number">10.5j &ensp;</span><span id="comment"># Esto es un número imaginario,tiene dos partes,una es la real (en este caso es 10) y otra imaginaria (en este caso es 5j)</span></h4>
+      </div>
+    </div>
+  </div>
+  <br>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
